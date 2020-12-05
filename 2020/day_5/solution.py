@@ -38,7 +38,7 @@ def getSeatID(d):
         elif y == 'L':
             r1 = r1[:(len(r1)+1)//2]
         else:
-            raise Exception("Bad char '{}' in col string".format(x))
+            raise Exception("Bad char '{}' in col string".format(y))
     
     return r0[0] * 8 + r1[0]
 
