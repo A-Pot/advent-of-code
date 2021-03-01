@@ -5,7 +5,7 @@
 from string import ascii_lowercase
 
 # Load data
-fo = open('/Users/apot/projects/AdventOfCode/2020/day_6/input.txt', 'r')
+fo = open('input.txt', 'r')
 line = fo.readlines()
 line += '\n'
 
